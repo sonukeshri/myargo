@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: keshrisonu/demorepo:demodockerimage
         ports:
-        - containerPort: 8063
+        - containerPort: 8080
