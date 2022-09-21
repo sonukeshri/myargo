@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: my-canary-demo
-        image: keshrisonu/demorepo:demodockerimage
+        image: keshrisonu/demorepo:updatedimage
         ports:
         - containerPort: 8085
         resources:
