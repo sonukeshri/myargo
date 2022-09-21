@@ -35,4 +35,4 @@ spec:
         resources:
           requests:
             memory: 64Mi
-            cpu: 5m
+            cpu: 4m
