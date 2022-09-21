@@ -12,12 +12,12 @@ spec:
     path: test
   destination: 
     server: https://kubernetes.default.svc
-    namespace: chk
+    namespace: rollout-demo
 
   syncPolicy:
     syncOptions:
-    - CreateNamespace=false
+    - CreateNamespace=true
 
     automated:
-      selfHeal: false
-      prune: false
+      selfHeal: true
+      prune: true
